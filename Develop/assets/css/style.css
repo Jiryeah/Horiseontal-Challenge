@@ -1,55 +1,59 @@
+/* This universal will apply to the entire code */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Body Styling Start-background color applied to the body; cascade affect will give this color low priority since it is at the top */
 body {
     background-color: #d9dcd6;
 }
+/* Body Styling End */
 
-.header {
+/* Header Style Start */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
-.header nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;    
 }
 
-.header nav ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
-a {
+header nav ul li a {
     color: #ffffff;
     text-decoration: none;
 }
+/* Header Start End */
 
-p {
-    font-size: 16px;
+/* Header h1 'seo' Style Start */
+.seo {
+    color: #d9dcd6;
 }
+/* Header h1 'seo' Style End */
 
+/* Hero/Jumbotron Style Start */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,7 +62,9 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* Hero/Jumbotron Style End */
 
+/* Main Section Style Start */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -74,7 +80,26 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+.row {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
 
+.row-image {
+    max-height: 200px;
+}
+
+.row-text h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Main Sectin Style End */
+
+/* Benefits Column Style Start */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -101,25 +126,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* Benefits Column Style End */
 
-.row {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.row-image {
-    max-height: 200px;
-}
-
-.row-text h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer Styling Start */
 .footer {
     padding: 30px;
     clear: both;
@@ -130,3 +139,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/* Footer Styling End */
