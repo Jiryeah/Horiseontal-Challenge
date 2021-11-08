@@ -1,8 +1,10 @@
 # HTML, CSS, and GIT: Code Refactor Project
-The given code has been refactored and therefore made to be more accesible. Below, is a list of all completed criteria.
+The client requested that we inspect the given code and refactor said code. The code has been refactored and therefore made to be more accesible. Proper 
+semantics, notes, and logical structure has been administered. 
+Below, is a list of all completed criteria.
 
 
-## Satisfied Criteria 
+## Criteria 
 
 ```
 WHEN I view the source code
