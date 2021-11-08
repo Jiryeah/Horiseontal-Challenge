@@ -1,5 +1,5 @@
 # HTML, CSS, and GIT: Code Refactor Project
-The client requested that we inspect the given code and refactor said code. The code has been refactored and therefore made to be more accesible. Proper 
+The client requested that we inspect the given code and refactor said code. The code has been refactored and therefore made to be more accessible. Proper 
 semantics, notes, and logical structure has been administered. 
 Below, is a list of all completed criteria.
 
