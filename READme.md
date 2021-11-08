@@ -17,8 +17,9 @@ WHEN I view the title element
 THEN I find a concise, descriptive title: Addressed and Completed.
 
 ```
-# LINK
+## LINK
 https://jiryeah.github.io/Horiseontal-Rifaktor/
 
 
-
+## SCREENSHOT  
+![Mod-1 Challenge Screenshot](https://user-images.githubusercontent.com/92201576/140674345-55f99bcc-187e-4a6b-91da-b319d868ebff.jpeg)
