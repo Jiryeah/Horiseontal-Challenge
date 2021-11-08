@@ -1,4 +1,6 @@
 # HTML, CSS, and GIT: Code Refactor Project
+The given code has been refactored and therefore made to be more accesible. Below, is a list of all completed criteria.
+
 
 ## Satisfied Criteria 
 
@@ -15,5 +17,8 @@ WHEN I view the title element
 THEN I find a concise, descriptive title: Addressed and Completed.
 
 ```
+# LINK
+https://jiryeah.github.io/Horiseontal-Rifaktor/
+
 
 
